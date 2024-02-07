@@ -1,0 +1,84 @@
+*{
+    background-color: aquamarine;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-items: center;
+    margin: 20px;
+}
+
+button{
+    background-color: whitesmoke;
+    border-radius: 65px;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+    padding-right: 2.5rem;
+    margin: 3rem;
+}
+
+#start-text{
+    display: flex;
+    font-weight: 300;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 15px;
+}
+
+.piedra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.papel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tijera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    div{
+        display: grid;
+        grid-template-columns: repeat(3 1fr);
+    }
+}
+
+.pista{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;}
+
+@media (max-width: 1050px) {
+
+}
+
+@media (max-width: 820px) {
+    
+    
+}
