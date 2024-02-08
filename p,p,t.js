@@ -32,7 +32,7 @@ function jugar(usuario){
 
     jugando = true;
 
-    imgusuario.src = "imagenes/" + usuario + ".png";
+    imgusuario.src = usuario + ".png";
 
     let intervalo = setInterval(function (){
         const maquina = calcMaquina()
@@ -44,7 +44,7 @@ function jugar(usuario){
         const maquina = calcMaquina();
         let resultado = calcResultado(usuario, maquina);
 
-        imgmaquina.src = "imagenes/" + maquina + ".png";
+        imgmaquina.src = maquina + ".png";
         switch(resultado){
             case empate:
                 resultText.innerHTML = "Hubo un empate";
