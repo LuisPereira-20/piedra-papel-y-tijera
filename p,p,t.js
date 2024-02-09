@@ -36,7 +36,7 @@ function jugar(usuario){
 
     let intervalo = setInterval(function (){
         const maquina = calcMaquina()
-    },200);
+    });
 
     setTimeout (function () {
         clearInterval(intervalo)
@@ -57,7 +57,7 @@ function jugar(usuario){
                 break;
         }
         jugando = false;
-    }, 2000);
+    });
 }
 
 function calcMaquina() {
